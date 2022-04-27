@@ -1,0 +1,11 @@
+server:
+  port: 8090
+  timezone: UTC
+security:
+  basic:
+    enabled: false
+spring:
+  application:
+    name: Vending machine 
+  session:
+    store-type: redis
